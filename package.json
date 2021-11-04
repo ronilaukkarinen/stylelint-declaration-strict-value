@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AndyOGo/stylelint-declaration-strict-value.git"
+    "url": "git+https://github.com/ronilaukkarinen/stylelint-declaration-strict-value.git"
   },
   "keywords": [
     "stylelint-plugin",
