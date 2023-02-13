@@ -10,11 +10,16 @@
 
 A [stylelint](https://github.com/stylelint/stylelint) plugin that enforces either variables (`$sass`, `namespace.$sass`, `@less`, `var(--cssnext)`, `css-loader @value`), functions or custom CSS values, like keywords (`inherit`, `none`, `currentColor` etc.), colors (`#fff`, `red`, etc.) or numbers incl. units (`0`, `1px`, `100%`, etc.) for CSS longhand and experimental shorthand properties.
 
+## Installation
+
+```sh
+npm install @ronilaukkarinen/stylelint-declaration-strict-value
+```
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
-- [Installation](#installation)
 - [Usage](#usage)
     - [Scheme](#scheme)
     - [Primary Options](#primary-options)
@@ -44,12 +49,6 @@ A [stylelint](https://github.com/stylelint/stylelint) plugin that enforces eithe
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-# Installation
-
-```sh
-npm install stylelint-declaration-strict-value
-```
-
 # Usage
 
 Add it to your stylelint config `plugins` array, then add `"scale-unlimited/declaration-strict-value"` to your rules,
@@ -61,7 +60,7 @@ Like so:
 // .stylelintrc
 {
   "plugins": [
-    "stylelint-declaration-strict-value"
+    "@ronilaukkarinen/stylelint-declaration-strict-value"
   ],
   "rules": {
     // ...

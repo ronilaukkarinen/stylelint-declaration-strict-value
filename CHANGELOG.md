@@ -1,3 +1,8 @@
+## [1.9.2]: 2023-02-13
+
+* Update stylelint to 15.1.0
+* Fix peerDependencies
+
 ## [1.9.1](https://github.com/AndyOGo/stylelint-declaration-strict-value/compare/v1.9.0...v1.9.1) (2022-10-13)
 
 
